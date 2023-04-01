@@ -1,11 +1,20 @@
-# template-enhancer
+# Template-enhancer
+
 The tool queries the OpenAI API to enhance the description, impact, and recommendation keys of a nuclei template.
 
-Usage:
+## Requirements
+
+Tool uses OpenAi API so you will need to have an api-key. You could for example have this in your .bashrc file.
+
+```
+export OPENAI_API_KEY=your-key-goes-here
+```
 
 ```
 pip install -r requirements.txt
 ```
+
+## Usage
 
 ```
 python3 enhance-template.py <path-to-nuclei-template>
