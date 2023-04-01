@@ -8,9 +8,11 @@ python3 enhance-template.py <path-to-nuclei-template>
 ```
 
 Before:
+
 ![Before](screenshots/before.png)
 
 
 After:
+
 ![After](screenshots/after.png)
 
