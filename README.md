@@ -4,10 +4,14 @@ The tool queries the OpenAI API to enhance the description, impact, and recommen
 Usage:
 
 ```
+pip install -r requirements.txt
+```
+
+```
 python3 enhance-template.py <path-to-nuclei-template>
 ```
 
-One-liner in bash to run the script over multiple templates.
+Or bash one-liner to run the script over multiple templates.
 
 ```
 $high=$(nuclei -tl -s high); for i in $(echo $high); do python3 enhance-template.py $i ; done
